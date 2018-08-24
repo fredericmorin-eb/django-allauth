@@ -392,6 +392,15 @@ Development callback URL
 
 for both the ``Application URL`` and ``OAuth Redirect URI``.
 
+.. code-block:: python
+
+    SOCIALACCOUNT_PROVIDERS = {
+        'eventbrite': {
+            'EVENTRBRITE_HOSTNAME': 'www.eventbrite.com',
+            'EVENTRBRITEAPI_HOSTNAME': 'www.eventbriteapi.com',
+        }
+    }
+
 
 Evernote
 --------
